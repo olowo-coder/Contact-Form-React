@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import PostForm from './components/PostForm';
+import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <PostForm/>
+    <div>
+      {/* <Header/> */}
+      <Main/>
     </div>
   );
 }
